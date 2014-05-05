@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<div id="navigation">
+			<nav>
+			  <ul>
+			    <li><a href="#">Home</a></li>
+			    <li><a href="#">Agregar Restaurante</a></li>
+			    <li><a href="#">Consultar</a></li>
+			  </ul>
+			</nav>
+		</div>
+
+		<title>Bumbur</title>
+		<link href="static/image/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic" rel="stylesheet" type="text/css" />
+		<script src="static/js/jquery.min.js"></script>
+		<script src="static/js/skel.min.js"></script>
+		<script src="static/js/init.js"></script>
+		<link rel="stylesheet" href="static/css/skel-noscript.css" />
+		<link rel="stylesheet" href="static/css/style.css" />
+		<link rel="stylesheet" href="static/css/style-wide.css" />
+		
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header" class="dark">
+				<header>
+					<h1>¡Bienvenido Bumbur!</h1>
+				</header>
+				<footer>
+					<a href="#first" class="button scrolly">Mantenimiento de Datos</a>
+					<a href="#first" class="button scrolly">Consultar</a>
+				</footer>
+			</section>
+		<!-- Fourth -->
+			<section id="fourth" class="main">
+				<header>
+				</header>
+				<div class="content style4 featured">
+					<div class="container small">
+						<form method="post" action="#">
+							<div class="row half">
+								<div class="6u"><input type="text" class="text" placeholder="Name" /></div>
+								<div class="6u"><input type="text" class="text" placeholder="Email" /></div>
+							</div>
+							<div class="row half">
+								<div class="12u"><textarea name="message" placeholder="Message"></textarea></div>
+							</div>
+							<div class="row">
+								<div class="12u">
+									<ul class="actions">
+										<li><input type="submit" class="button" value="Send Message" /></li>
+										<li><input type="reset" class="button alt" value="Clear Form" /></li>
+									</ul>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+			
+		<!-- Footer -->
+			<section id="footer">
+
+			</section>
+
+	</body>
+</html>
