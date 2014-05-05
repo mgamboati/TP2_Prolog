@@ -16,11 +16,12 @@
 
         <div class="header-container">
             <header class="wrapper clearfix">
-                <center> <h1 class="title">Consultar</h1> </center>
+                <center> <h1 class="title">¡Restaurante agregado con exito!</h1> </center>
                 <nav>
                     <ul>
-                        <li><a href="/">Home</a></li>
+			<li><a href="/">Home</a></li>
                         <li><a href="/mantenimiento">Mantenimiento</a></li>
+                        <li><a href="/consultar">Consultar</a></li>
                     </ul>
                 </nav>
             </header>
@@ -28,37 +29,8 @@
 
         <div class="main-container">
             <div class="main wrapper clearfix">
-                <article>
-                    <section>
-                        <div class="content style4 featured">
-				<div class="container small">
-					<form action="/consultar"> 
-					    <input type="submit" value="Mostrar todos los restaurantes">
-					</form>
 
-					<form action="/consultar">
-					    <input type="submit" value="Mostrar restaurantes por tipo de comida">
-					</form>
-
-					<form action="/consultar">
-					    <input type="submit" value="Mostrar restaurantes por nombre">
-					</form>
-
-					<form action="/consultar">
-					    <input type="submit" value="Mostrar restaurantes por platillos de algun pais">
-					</form>
-
-					<form action="/consultar">
-					    <input type="submit" value="Mostrar platillos por restaurante">
-					</form>
-
-					<form action="/consultar">
-					    <input type="submit" value="Mostrar platillos por restaurante y con un ingrediente en particular">
-					</form>
-				</div>
-			</div>
-                    </section>
-                </article>
+			<img src="static/img/bumbur.jpg" width="250"/> 
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->

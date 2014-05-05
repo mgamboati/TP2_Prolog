@@ -20,7 +20,7 @@
                 <nav>
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/mantenimiento">Mantenimiento de Datos</a></li>
+                        <li><a href="/mantenimiento">Mantenimiento</a></li>
                     </ul>
                 </nav>
             </header>

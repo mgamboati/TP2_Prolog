@@ -32,27 +32,24 @@
                     <section>
                         <div class="content style4 featured">
 				<div class="container small">
-						<form method="post" action="#">
-							<div class="row half">
-								<div class="6u"><label>Nombre: </label><input type="text" class="text" /></div>
-								<div class="6u"><label>Tipo de Comida: </label><input type="text" class="text" /></div>
-								<div class="6u"><label>Ubicación: </label><input type="text" class="text" /></div>
-								<div class="6u"><label>Teléfono: </label><input type="text" class="text" /></div>
-								<div class="6u"><label>Horario: </label><input type="text" class="text" /></div>
-							<div class="row">
-								<div class="12u">
-									<ul class="actions">
-										<li><input type="submit" class="button" value="Ingresar Datos" /></li>
-										<li><input type="submit" class="button" value="Ingresar Platillos Favoritos" /></li>
-										<li><input type="reset" class="button alt" value="Reset" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
+
+					<form action="/mantenimiento" method="POST">{% csrf_token %}
+						{{ form.as_p }}
+					<input type="submit" value="Agregar" />
+					</form>
+
+					<form action="/platillo">
+					    <input type="submit" value="Agregar Platillo">
+					</form>
+
 					</div>
 				</div>
                     </section>
                 </article>
+
+                <aside>
+			<img src="static/img/sandwich.jpg" width="250" /> 
+                </aside>
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->

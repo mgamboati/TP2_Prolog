@@ -16,11 +16,11 @@
 
         <div class="header-container">
             <header class="wrapper clearfix">
-                <center> <h1 class="title">Consultar</h1> </center>
+                <center> <h1 class="title">Mantenimiento de Datos</h1> </center>
                 <nav>
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/mantenimiento">Mantenimiento</a></li>
+                        <li><a href="/consultar">Consultar</a></li>
                     </ul>
                 </nav>
             </header>
@@ -32,33 +32,20 @@
                     <section>
                         <div class="content style4 featured">
 				<div class="container small">
-					<form action="/consultar"> 
-					    <input type="submit" value="Mostrar todos los restaurantes">
+
+					<form action="/platillo" method="POST">{% csrf_token %}
+						{{ form.as_p }}
+					<input type="submit" value="Agregar" />
 					</form>
 
-					<form action="/consultar">
-					    <input type="submit" value="Mostrar restaurantes por tipo de comida">
-					</form>
-
-					<form action="/consultar">
-					    <input type="submit" value="Mostrar restaurantes por nombre">
-					</form>
-
-					<form action="/consultar">
-					    <input type="submit" value="Mostrar restaurantes por platillos de algun pais">
-					</form>
-
-					<form action="/consultar">
-					    <input type="submit" value="Mostrar platillos por restaurante">
-					</form>
-
-					<form action="/consultar">
-					    <input type="submit" value="Mostrar platillos por restaurante y con un ingrediente en particular">
-					</form>
+					</div>
 				</div>
-			</div>
                     </section>
                 </article>
+
+                <aside>
+			<img src="static/img/sandwich.jpg" width="250" /> 
+                </aside>
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->

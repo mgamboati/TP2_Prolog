@@ -1,3 +1,11 @@
 from django.db import models
 
 # Create your models here.
+
+from django import forms
+class restaurante(forms.Form):
+	Nombre = forms.CharField(max_length=100)
+	Tipo_de_comida = forms.CharField(max_length=100)
+	Ubicacion = forms.CharField(max_length=100)
+	Telefono = forms.CharField(max_length=100)
+	Horario = forms.CharField(max_length=100)
